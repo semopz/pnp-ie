@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ie-pn-p-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/iePnP/IePnPWebPart.js",
+          "manifest": "./src/webparts/iePnP/IePnPWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IePnPWebPartStrings": "lib/webparts/iePnP/loc/{locale}.js"
+  }
+}
